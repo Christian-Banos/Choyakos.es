@@ -1,3 +1,26 @@
 @media screen and (max-width: 1024px){
+//HEADER
+    .header__search{
+        margin-bottom: 20px;
+        .form-inline{
+            width: 320PX;
+            display: flex;
+            flex-wrap: nowrap;
+            .form-control{
+                width: 320px;
+            }
+        }
+    }
     
+
+//NAV    
+    .btn-group{
+        .btn-secondary{
+            width: 129px;
+        }
+        .moda{
+             width: 180px;   
+        }
+    }
+
 }

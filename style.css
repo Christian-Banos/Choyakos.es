@@ -326,6 +326,26 @@ footer .row-footer .footer-browsers h3 {
   margin: 0px auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .header__search {
+    margin-bottom: 20px;
+  }
+  .header__search .form-inline {
+    width: 320PX;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .header__search .form-inline .form-control {
+    width: 320px;
+  }
+
+  .btn-group .btn-secondary {
+    width: 129px;
+  }
+  .btn-group .moda {
+    width: 180px;
+  }
+}
 body {
   background-color: #E9EAED;
 }
