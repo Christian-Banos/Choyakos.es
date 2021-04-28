@@ -12,7 +12,6 @@
         }
     }
     
-
 //NAV    
     .btn-group{
         .btn-secondary{
@@ -23,4 +22,24 @@
         }
     }
 
+//SECTION
+    .carousel{
+        width: 500px;
+    }
+
+    .container_section{
+        background-color: red;
+        width: 80% !important;
+        margin: 0px 66.5px !important;
+        .container__articles{
+            margin-left: 0px;
+            background-color: royalblue;
+            grid-area: articles;
+        }
+
+        .container__lateral{
+            grid-area: lateral;
+            background-color: saddlebrown;
+        }
+    }
 }

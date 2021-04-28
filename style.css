@@ -345,6 +345,25 @@ footer .row-footer .footer-browsers h3 {
   .btn-group .moda {
     width: 180px;
   }
+
+  .carousel {
+    width: 500px;
+  }
+
+  .container_section {
+    background-color: red;
+    width: 80% !important;
+    margin: 0px 66.5px !important;
+  }
+  .container_section .container__articles {
+    margin-left: 0px;
+    background-color: royalblue;
+    grid-area: articles;
+  }
+  .container_section .container__lateral {
+    grid-area: lateral;
+    background-color: saddlebrown;
+  }
 }
 body {
   background-color: #E9EAED;
