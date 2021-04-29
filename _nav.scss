@@ -2,8 +2,8 @@ $color1: #FFAD00;
 $grey1: #35373B;
 $grey2: #1D1F20;
 
-
 .btn-group{
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -14,12 +14,12 @@ $grey2: #1D1F20;
     align-items: center;
     
     .btn-secondary{
-        width: 180px;
+        width: 195px;
         background-color: #35373B;
         color: $color1;
         border: 5px;
         font-family: helvetica;
-        font-size: 11pt;
+        font-size: 12.5pt;
         margin: 5px;
         transition: all 500ms;
     }

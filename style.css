@@ -76,12 +76,12 @@ header {
   align-items: center;
 }
 .btn-group .btn-secondary {
-  width: 180px;
+  width: 195px;
   background-color: #35373B;
   color: #FFAD00;
   border: 5px;
   font-family: helvetica;
-  font-size: 11pt;
+  font-size: 12.5pt;
   margin: 5px;
   transition: all 500ms;
 }
@@ -342,6 +342,7 @@ footer .row-footer .footer-browsers h3 {
 
   .btn-group .btn-secondary {
     width: 129px;
+    font-size: 10pt;
   }
   .btn-group .moda {
     width: 180px;
@@ -379,6 +380,87 @@ footer .row-footer .footer-browsers h3 {
   footer .footer {
     margin-left: 0;
     margin: 0px auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header .header__redes {
+    display: none;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    height: 95px;
+  }
+  .btn-group .btn-secondary {
+    width: 129px;
+  }
+  .btn-group .moda {
+    width: 180px;
+  }
+
+  .carousel {
+    width: 400px;
+    height: 200px;
+  }
+  .carousel img {
+    width: 400px;
+    height: 200px;
+  }
+
+  .bd-highlight {
+    width: 100% !important;
+  }
+  .bd-highlight h1 {
+    font-size: 20pt !important;
+    margin: 0px auto;
+  }
+
+  .container_section {
+    width: 100% !important;
+    margin: 0px auto !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container__psection {
+    display: none;
+  }
+
+  .destacados {
+    display: none;
+  }
+
+  .container__articles {
+    margin: 3px auto !important;
+  }
+
+  footer {
+    margin-top: -1px;
+    margin-bottom: -16px;
+  }
+  footer .footer-psection img {
+    width: 80px;
+    height: 63px;
+    padding-top: 26px;
+  }
+  footer .footer-psection .footer-psection-1 h6 {
+    padding-top: 16px;
+    font-size: 10pt;
+  }
+  footer .footer {
+    margin-left: 0;
+    margin: 0px auto;
+  }
+  footer .footer h3 {
+    font-size: 10pt;
+  }
+  footer .footer-psection-2 p {
+    font-size: 10pt;
+    margin-top: 5px;
+  }
+  footer .footer-end p {
+    font-size: 10pt;
   }
 }
 body {
