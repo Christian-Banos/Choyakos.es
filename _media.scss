@@ -49,18 +49,27 @@
         .footer-psection{
             img{
                 width: 95px;
-                height: 57px;
-                padding-top: 11px;
+                height: 68px;
+                padding-top: 27px;
             }
             .footer-psection-1{
                 h6{
-                    padding-top: 7px;
+                    padding-top: 21px;
+                    font-size: 12pt;
                 }
             }
         }
         .footer{
             margin-left: 0;
             margin: 0px auto;
+        }
+        .footer-psection-2{
+            p{
+                font-size: 12pt !important;
+                margin-top: 5px;
+                text-align: justify;
+                padding-bottom: 5px;
+            }
         }
     }
 }
@@ -125,12 +134,12 @@ footer{
     .footer-psection{
         img{
             width: 80px;
-            height: 63px;
-            padding-top: 26px;
+            height: 68px;
+            padding-top: 20px;
         }
         .footer-psection-1{
             h6{
-                padding-top: 16px;
+                padding-top: 20px;
                 font-size: 10pt;
             }
         }
@@ -144,8 +153,10 @@ footer{
     }
     .footer-psection-2{
         p{
-            font-size: 10pt;
+            font-size: 10pt !important;
             margin-top: 5px;
+            text-align: justify;
+            padding-bottom: 15px;
         }
     }
     .footer-end{
@@ -154,4 +165,125 @@ footer{
         }
     }
 }
+
+}
+
+@media screen and (max-width: 425px){    
+    //HEADER    
+    .header{
+        height: 90px;
+        .header__logo{
+            margin: 0px auto;
+            img{
+                margin: -47px 15px;
+            }
+        }
+        .header__redes{
+            display: none;
+        }
+        .header__search{
+            display: none;
+        }
+    }
+
+    //NAV    
+    .btn-group{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 300px;
+    .btn-secondary{
+        width: 410px;
+    }
+    .moda{
+         width: 410x;   
+    }
+    }
+    //SECTION
+    .carousel{
+    width: 350px;
+    height: 200px;
+
+    img{
+        width: 350px;
+        height: 200px;
+    }
+    }
+    .container__articles{
+        width: 100% !important;
+        margin: 0px auto;
+    }
+    .col-md-4{
+        height: 150px;
+        img{
+            width: 70% !important;
+            height: 70% !important;
+        }
+    }
+    .card{
+        width: 400px;
+        height: 420px;
+        margin: 0px auto;
+    }
+    .card-body{
+        margin-bottom: 7px;
+        height: 270px;
+    }
+    .card-title-articles{
+        font-size: 12pt;
+    }
+    .col-md-8{
+        .btn{
+          width: 100%;  
+        }  
+    } 
+    footer{
+        margin-top: -1px;
+        margin-bottom: -16px;
+        .footer-psection{
+            height: 187px;
+            display: flex;
+            justify-content: flex-start;
+            background-color: lightcoral;
+            width: 424px;
+            img{
+                width: 80px;
+                height: 68px;
+                padding-top: 21px;
+                margin-left: -158px;
+            }
+            .footer-psection-1{
+                h6{
+                    padding-top: 20px;
+                    font-size: 10pt;
+                }
+            }
+        }
+        .footer{
+            margin-left: 0;
+            margin: 0px auto;
+            h3{
+                font-size: 12pt !important;
+            }
+            img{
+                width: 30px;
+            }
+        }
+        .footer-psection-2{
+            p{
+                font-size: 10pt !important;
+                margin-top: 5px;
+                text-align: justify;
+                padding-bottom: 15px;
+                margin: 0px -115px;
+                padding-right: 142px;
+            }
+        }
+        .footer-end{
+            p{
+                font-size: 10pt;
+            }
+        }
+
+    }
 }

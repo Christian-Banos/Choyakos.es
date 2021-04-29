@@ -124,9 +124,14 @@ footer .footer-psection .footer-psection-1 {
 }
 footer .footer-psection .footer-psection-1 h6 {
   margin-top: 20px;
+  font-size: 14pt;
 }
 footer .footer-psection .footer-psection-2 {
   width: 80%;
+}
+footer .footer-psection .footer-psection-2 p {
+  font-size: 14pt;
+  text-align: justify;
 }
 footer .footer-psection img {
   width: 50px;
@@ -371,15 +376,22 @@ footer .row-footer .footer-browsers h3 {
   }
   footer .footer-psection img {
     width: 95px;
-    height: 57px;
-    padding-top: 11px;
+    height: 68px;
+    padding-top: 27px;
   }
   footer .footer-psection .footer-psection-1 h6 {
-    padding-top: 7px;
+    padding-top: 21px;
+    font-size: 12pt;
   }
   footer .footer {
     margin-left: 0;
     margin: 0px auto;
+  }
+  footer .footer-psection-2 p {
+    font-size: 12pt !important;
+    margin-top: 5px;
+    text-align: justify;
+    padding-bottom: 5px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -441,11 +453,11 @@ footer .row-footer .footer-browsers h3 {
   }
   footer .footer-psection img {
     width: 80px;
-    height: 63px;
-    padding-top: 26px;
+    height: 68px;
+    padding-top: 20px;
   }
   footer .footer-psection .footer-psection-1 h6 {
-    padding-top: 16px;
+    padding-top: 20px;
     font-size: 10pt;
   }
   footer .footer {
@@ -456,8 +468,124 @@ footer .row-footer .footer-browsers h3 {
     font-size: 10pt;
   }
   footer .footer-psection-2 p {
-    font-size: 10pt;
+    font-size: 10pt !important;
     margin-top: 5px;
+    text-align: justify;
+    padding-bottom: 15px;
+  }
+  footer .footer-end p {
+    font-size: 10pt;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header {
+    height: 90px;
+  }
+  .header .header__logo {
+    margin: 0px auto;
+  }
+  .header .header__logo img {
+    margin: -47px 15px;
+  }
+  .header .header__redes {
+    display: none;
+  }
+  .header .header__search {
+    display: none;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 300px;
+  }
+  .btn-group .btn-secondary {
+    width: 410px;
+  }
+  .btn-group .moda {
+    width: 410x;
+  }
+
+  .carousel {
+    width: 350px;
+    height: 200px;
+  }
+  .carousel img {
+    width: 350px;
+    height: 200px;
+  }
+
+  .container__articles {
+    width: 100% !important;
+    margin: 0px auto;
+  }
+
+  .col-md-4 {
+    height: 150px;
+  }
+  .col-md-4 img {
+    width: 70% !important;
+    height: 70% !important;
+  }
+
+  .card {
+    width: 400px;
+    height: 420px;
+    margin: 0px auto;
+  }
+
+  .card-body {
+    margin-bottom: 7px;
+    height: 270px;
+  }
+
+  .card-title-articles {
+    font-size: 12pt;
+  }
+
+  .col-md-8 .btn {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: -1px;
+    margin-bottom: -16px;
+  }
+  footer .footer-psection {
+    height: 187px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightcoral;
+    width: 424px;
+  }
+  footer .footer-psection img {
+    width: 80px;
+    height: 68px;
+    padding-top: 21px;
+    margin-left: -158px;
+  }
+  footer .footer-psection .footer-psection-1 h6 {
+    padding-top: 20px;
+    font-size: 10pt;
+  }
+  footer .footer {
+    margin-left: 0;
+    margin: 0px auto;
+  }
+  footer .footer h3 {
+    font-size: 12pt !important;
+  }
+  footer .footer img {
+    width: 30px;
+  }
+  footer .footer-psection-2 p {
+    font-size: 10pt !important;
+    margin-top: 5px;
+    text-align: justify;
+    padding-bottom: 15px;
+    margin: 0px -115px;
+    padding-right: 142px;
   }
   footer .footer-end p {
     font-size: 10pt;
