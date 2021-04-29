@@ -40,4 +40,26 @@
     .telegram{
         display: none;
     }
+
+//FOOTER
+    footer{
+        margin-top: -1px;
+        margin-bottom: -16px;
+        .footer-psection{
+            img{
+                width: 95px;
+                height: 57px;
+                padding-top: 11px;
+            }
+            .footer-psection-1{
+                h6{
+                    padding-top: 7px;
+                }
+            }
+        }
+        .footer{
+            margin-left: 0;
+            margin: 0px auto;
+        }
+    }
 }

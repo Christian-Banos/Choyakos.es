@@ -108,6 +108,7 @@ footer {
   margin-top: 15px;
   color: white;
   margin-top: 30px;
+  margin-bottom: -16px;
 }
 footer .footer-psection {
   background-color: #1D1F20;
@@ -361,6 +362,23 @@ footer .row-footer .footer-browsers h3 {
 
   .telegram {
     display: none;
+  }
+
+  footer {
+    margin-top: -1px;
+    margin-bottom: -16px;
+  }
+  footer .footer-psection img {
+    width: 95px;
+    height: 57px;
+    padding-top: 11px;
+  }
+  footer .footer-psection .footer-psection-1 h6 {
+    padding-top: 7px;
+  }
+  footer .footer {
+    margin-left: 0;
+    margin: 0px auto;
   }
 }
 body {
