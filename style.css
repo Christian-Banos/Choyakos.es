@@ -351,18 +351,16 @@ footer .row-footer .footer-browsers h3 {
   }
 
   .container_section {
-    background-color: red;
-    width: 80% !important;
+    width: 93% !important;
     margin: 0px 66.5px !important;
   }
-  .container_section .container__articles {
-    margin-left: 0px;
-    background-color: royalblue;
-    grid-area: articles;
+
+  .container__psection {
+    width: 274px !important;
   }
-  .container_section .container__lateral {
-    grid-area: lateral;
-    background-color: saddlebrown;
+
+  .telegram {
+    display: none;
   }
 }
 body {
