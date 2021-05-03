@@ -354,6 +354,24 @@ footer .row-footer .footer-browsers h3 {
     width: 180px;
   }
 
+  .btn-group-pages .btn-secondary {
+    width: 139px;
+    font-size: 10pt;
+    margin: 2px;
+  }
+  .btn-group-pages .moda {
+    text-align: left;
+    width: 160px;
+  }
+
+  .container__submenu--paginas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container__submenu--paginas .btn-outline-dark {
+    height: 35px;
+  }
+
   .carousel {
     width: 500px;
   }
@@ -369,6 +387,23 @@ footer .row-footer .footer-browsers h3 {
 
   .telegram {
     display: none;
+  }
+
+  .container__articles--pages {
+    width: 90%;
+    margin: 0px auto !important;
+  }
+  .container__articles--pages .container__articles--card {
+    margin-right: -55px;
+    padding: 0px;
+    justify-content: space-evenly;
+  }
+  .container__articles--pages .container__articles--card .aticles-card {
+    width: 220px !important;
+    height: 380px;
+  }
+  .container__articles--pages .telegram-deportes {
+    width: 669px;
   }
 
   footer {
@@ -393,6 +428,12 @@ footer .row-footer .footer-browsers h3 {
     margin-top: 5px;
     text-align: justify;
     padding-bottom: 5px;
+  }
+
+  footer .footer-pages {
+    margin-top: 100px;
+    padding-bottom: 15px;
+    padding-top: 10px;
   }
 }
 @media screen and (max-width: 768px) {

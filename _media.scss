@@ -23,6 +23,30 @@
         }
     }
 
+//NAV PAGES
+    .btn-group-pages{
+        .btn-secondary{
+            width: 139px;
+            font-size: 10pt;
+            margin: 2px;
+        }
+        .moda{
+            text-align: left;
+            width: 160px;
+        }
+    }   
+
+// MENÚ DE PAGINAS
+    .container__submenu--paginas{
+        display: flex;
+        flex-wrap: wrap;
+
+        .btn-outline-dark{
+            height: 35px;
+        }
+    }
+     
+
 //SECTION
     .carousel{
         width: 500px;
@@ -41,6 +65,27 @@
     .telegram{
         display: none;
     }
+
+// ARTICULOS PAGES
+    .container__articles--pages{
+        width: 90%;
+        margin: 0px auto !important;
+        .container__articles--card{
+            margin-right: -55px;
+            padding: 0px;
+            justify-content: space-evenly;
+            .aticles-card{
+                width: 220px !important;
+                height: 380px;
+            }
+        }
+        //deportes
+        .telegram-deportes{
+            width: 669px;
+        }
+        
+    }
+    
 
 //FOOTER
     footer{
@@ -71,7 +116,18 @@
                 padding-bottom: 5px;
             }
         }
+        
     }
+
+    //FOOTER PAGES (ELECTRÓNICA Y GAMING)
+    footer{
+        .footer-pages{
+            margin-top: 100px;
+            padding-bottom: 15px;
+            padding-top: 10px;
+        }
+    }
+    
 }
 
 @media screen and (max-width: 768px){
