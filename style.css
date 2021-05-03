@@ -190,18 +190,18 @@ footer .row-footer .footer-browsers h3 {
 }
 
 .seccionPortada-deportes {
-  background-image: url(images/fondoDeportes.jpg);
+  background-image: url(images/portadadeportes.jpg);
   background-position: center;
 }
 
 .seccionPortada-electronica {
-  background-image: url(images/fondeElectronica.jpg);
+  background-image: url(images/portadaelectronica.jpg);
   background-position-y: 350px;
   background-size: cover;
 }
 
 .seccionPortada-gaming {
-  background-image: url(images/fondoPlay.jpg);
+  background-image: url(images/portadagaming.jpg);
   background-position-x: 100px;
   background-position-y: 370px;
 }
@@ -434,6 +434,13 @@ footer .row-footer .footer-browsers h3 {
     margin-top: 100px;
     padding-bottom: 15px;
     padding-top: 10px;
+  }
+
+  .formulario {
+    padding-bottom: 10px;
+  }
+  .formulario .form-group {
+    font-size: 11pt;
   }
 }
 @media screen and (max-width: 768px) {
