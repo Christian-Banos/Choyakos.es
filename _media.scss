@@ -257,7 +257,16 @@ footer{
         }
     }
 }
-
+//pagina-error{
+    .error__mesage--container{
+        img{
+            width: 500px;
+        }  
+    }
+    .Footer__Error404{
+        font-size: 11pt;
+    }  
+    
 }
 
 @media screen and (max-width: 425px){    
@@ -442,6 +451,16 @@ footer{
     .footer-deportes-425px{
         margin-top: 1900px;
     }
+
+    //pagina-error{
+        .error__mesage--container{
+            img{
+                width: 350px;
+            }  
+        } 
+        .Footer__Error404{
+            font-size: 10pt;
+        }
 
 }
 
@@ -658,4 +677,14 @@ footer{
             }
         }
     }
+
+        //pagina-error{
+            .error__mesage--container{
+                img{
+                    width: 300px;
+                }  
+            } 
+            .Footer__Error404{
+                font-size: 9pt;
+            }
 }
