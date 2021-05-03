@@ -84,6 +84,7 @@ header {
   font-size: 12.5pt;
   margin: 5px;
   transition: all 500ms;
+  border-radius: 7px;
 }
 .btn-group .btn-secondary:hover {
   background-color: #53565c;

@@ -12,7 +12,6 @@ $grey2: #1D1F20;
     height: 64px;
     background-color: #1D1F20;
     align-items: center;
-    
     .btn-secondary{
         width: 195px;
         background-color: #35373B;
@@ -22,6 +21,7 @@ $grey2: #1D1F20;
         font-size: 12.5pt;
         margin: 5px;
         transition: all 500ms;
+        border-radius: 7px;
     }
     .btn-secondary:hover{
         background-color: #53565c;
