@@ -45,23 +45,22 @@
 
 //PORTADAS-PAGINAS
 .seccionPortada-deportes{
-    // background-image: url(images/portadadeportes.jpg);
-    background: url(images/portadadeportes.jpg);
+    background-image: url(https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
     background-position:center;
     }
 
 .seccionPortada-electronica{
-    // background-image: url(images/portadaelectronica.jpg);
-    background: url(images/portadaelectronica.jpg);
+    background-image: url(https://i.pinimg.com/originals/40/51/cf/4051cf7a63d7d42af91c3c7221f33355.jpg);
     background-position-y: 350px;
     background-size: cover;
 }
 
 .seccionPortada-gaming{
-    // background-image: url(images/portadagaming.jpg);
-    background: url(images/portadagaming.jpg);
-    background-position-x: 100px;
-    background-position-y: 370px;
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/04/16124604543886.jpg);
+    background-position-y: -400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 
