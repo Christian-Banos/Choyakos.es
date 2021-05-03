@@ -291,6 +291,23 @@ footer{
          width: 410x;   
     }
     }
+    //menu pages
+        .btn-group-pages{
+            display: none;
+        }
+    
+    //Portada-pages
+    .seccionPortada__img{
+        width: 78px;
+        height: 80px;
+        
+        img{
+            width: 50px;
+            height: 50px;
+            margin: 15px 15px;
+        }
+    }
+
     //SECTION
     .carousel{
         width: 350px;
@@ -329,6 +346,40 @@ footer{
           width: 100%;  
         }  
     } 
+    //card-pages
+    .container__articles--pages{
+        width: 90%;
+        margin: 0px auto !important;
+        .container__articles--card{
+
+            .aticles-card{
+                width: 400px !important;
+                height: 320px;
+                .reducir-paddign{
+                    height: 20px;
+                }
+                }
+            }
+        .container__lateral{
+            display: none;
+        }
+        .telegram-deportes{
+            width: 400px;
+            .col-md-4{
+                img{
+                    width: 100px !important;
+                    height: 100px !important;
+                }
+            }
+            
+        }
+    }
+
+    .container__articles--card {
+        .boton-article{
+            width: 359px;
+        }
+    }
 
     footer{
         margin-top: -1px;
@@ -378,9 +429,23 @@ footer{
         }
 
     }
+    
+    // footer-pages
+    .footer-425px{
+        margin-top: 2455px;
+        .footer-pages{
+            height: 200px;
+            padding-top: 0px;
+        }
+    }
+    
+    .footer-deportes-425px{
+        margin-top: 1900px;
+    }
+
 }
 
-@media screen and (max-width: 425px){    
+@media screen and (max-width: 375px){    
     //HEADER    
     .header{
         height: 90px;
@@ -401,6 +466,22 @@ footer{
             width: 362px;
         }
     }
+        //menu pages
+        .btn-group-pages{
+            display: none;
+        }
+
+    //Portada-pages
+    .seccionPortada__img{
+        width: 78px;
+        height: 80px;
+        
+        img{
+            width: 50px;
+            height: 50px;
+            margin: 15px 15px;
+        }
+    }    
     //SECTION
     .carousel{
         width: 300px;
@@ -452,15 +533,58 @@ footer{
             width: 100%;  
         }  
     } 
+    //card-pages
+    .container__articles--pages{
+        width: 90%;
+        margin: 0px auto !important;
+        .container__articles--card{
+
+            .aticles-card{
+                width: 402px !important;
+                height: 320px;
+                .reducir-paddign{
+                    height: 20px;
+                }
+                }
+            }
+        .container__lateral{
+            display: none;
+        }
+        .tele-card{
+            height: 350px;
+        }
+        .telegram-deportes{
+            width: 355px;
+            height: 350px;
+            .col-md-4{
+                
+                img{
+                    width: 100px !important;
+                    height: 100px !important;
+                }
+            }
+            .boton-article{
+                width: 300px;
+            }
+            
+        }
+    }
+
+    .container__articles--card {
+        .boton-article{
+            width: 335px;
+        }
+    }
+
     // FOOTER
     footer{
         margin-top: -1px;
         margin-bottom: -16px;
         .footer-psection{
-            height: 187px;
+            height: 209px;
             display: flex;
             justify-content: flex-start;
-            width: 424px;
+            width: 374px;
             img{
                 width: 83px;
                 height: 49px;
@@ -500,5 +624,38 @@ footer{
             }
         }
 
+    }
+
+    // footer-pages
+    .footer-425px{
+        margin-top: 1360px;
+        .footer-pages{
+            height: 200px;
+            padding-top: 0px;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            .footer-psection-2{
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .footer-deportes-425px{
+        margin-top: 750px;
+        .footer-pages{
+            height: 200px;
+            padding-top: 0px;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            .footer-psection-2{
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+        }
     }
 }
