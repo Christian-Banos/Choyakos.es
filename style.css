@@ -189,23 +189,6 @@ footer .row-footer .footer-browsers h3 {
   font-size: 17pt;
 }
 
-.seccionPortada-deportes {
-  background-image: url(images/portadadeportes.jpg);
-  background-position: center;
-}
-
-.seccionPortada-electronica {
-  background-image: url(images/portadaelectronica.jpg);
-  background-position-y: 350px;
-  background-size: cover;
-}
-
-.seccionPortada-gaming {
-  background-image: url(images/portadagaming.jpg);
-  background-position-x: 100px;
-  background-position-y: 370px;
-}
-
 #seccionPortada {
   width: 100%;
   height: 125px;
@@ -214,12 +197,21 @@ footer .row-footer .footer-browsers h3 {
   align-items: center;
 }
 
-#seccion-deportes p {
-  width: 500px;
-  padding-top: 110px;
-  font-size: 28pt;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: white;
+.seccionPortada-deportes {
+  background: url(images/portadadeportes.jpg);
+  background-position: center;
+}
+
+.seccionPortada-electronica {
+  background: url(images/portadaelectronica.jpg);
+  background-position-y: 350px;
+  background-size: cover;
+}
+
+.seccionPortada-gaming {
+  background: url(images/portadagaming.jpg);
+  background-position-x: 100px;
+  background-position-y: 370px;
 }
 
 .container__submenu {
