@@ -189,6 +189,10 @@ footer .row-footer .footer-browsers h3 {
   font-size: 17pt;
 }
 
+.seccionPortada__tittle--negro {
+  color: black;
+}
+
 #seccionPortada {
   width: 100%;
   height: 125px;
@@ -213,6 +217,11 @@ footer .row-footer .footer-browsers h3 {
   background-position-y: -400px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.seccionPortada-hogar {
+  background-image: url(https://niutesa.com/wp-content/uploads/2020/04/Complementos-y-Accesorios-B%C3%A1sicos-para-Hogar.png);
+  background-position: center;
 }
 
 .container__submenu {
