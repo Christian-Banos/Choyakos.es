@@ -47,6 +47,7 @@
         color: white;
         font-weight: bolder;
         font-size: 11pt;
+        margin-left: 15px;
         img{
             width: 35px;
             height: 45px;
@@ -69,5 +70,61 @@
         background-color: goldenrod;
         color: white;
         transition: all 400ms;
+    }
+}
+
+//moda
+.colores{
+    margin: 10px 28px;
+
+    .boton-colores{
+        border-radius: 50%;
+        width: 20px;
+        border: none;
+    }
+
+    .grisOscuro{
+        background-color: #8B8F81;
+    }
+    .grisClaro{
+        background-color: #98A19C;
+    }
+    .grisMarron{
+        background-color: #915731;
+    }
+    .marron{
+        background-color: #A18A6A;
+    }
+    .purpura{
+        background-color: red;
+    }
+    .negro{
+        background-color: black;
+    }
+}
+
+.colores-sujetador{
+    margin: 15px 40px;
+
+    .boton-colores{
+        border-radius: 50%;
+        width: 20px;
+        border: none;
+    }
+    .sujetador-negro{
+        background-color: black;
+    }
+    .sujetador-gris{
+        background-color: grey;
+    }
+    .sujetador-blanco{
+        background-color: white;
+        border: 1px solid gray;
+    }
+    .sujetador-camuflaje{
+        background-color: gray;
+    }
+    .sejetador-set{
+        background-color: black;
     }
 }

@@ -224,13 +224,6 @@ footer .row-footer .footer-browsers h3 {
   background-position: center;
 }
 
-.seccionPortada-moda {
-  background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
-  background-position-y: -600px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .container__submenu {
   display: flex;
   flex-direction: row;
@@ -295,7 +288,6 @@ footer .row-footer .footer-browsers h3 {
   color: white;
   font-weight: bolder;
   font-size: 11pt;
-  margin-left: 15px;
 }
 .container__articles--card .boton-article img {
   width: 35px;
@@ -318,58 +310,6 @@ footer .row-footer .footer-browsers h3 {
   background-color: goldenrod;
   color: white;
   transition: all 400ms;
-}
-
-.colores {
-  margin: 10px 28px;
-}
-.colores .boton-colores {
-  border-radius: 50%;
-  width: 20px;
-  border: none;
-}
-.colores .grisOscuro {
-  background-color: #8B8F81;
-}
-.colores .grisClaro {
-  background-color: #98A19C;
-}
-.colores .grisMarron {
-  background-color: #915731;
-}
-.colores .marron {
-  background-color: #A18A6A;
-}
-.colores .purpura {
-  background-color: red;
-}
-.colores .negro {
-  background-color: black;
-}
-
-.colores-sujetador {
-  margin: 15px 40px;
-}
-.colores-sujetador .boton-colores {
-  border-radius: 50%;
-  width: 20px;
-  border: none;
-}
-.colores-sujetador .sujetador-negro {
-  background-color: black;
-}
-.colores-sujetador .sujetador-gris {
-  background-color: grey;
-}
-.colores-sujetador .sujetador-blanco {
-  background-color: white;
-  border: 1px solid gray;
-}
-.colores-sujetador .sujetador-camuflaje {
-  background-color: gray;
-}
-.colores-sujetador .sejetador-set {
-  background-color: black;
 }
 
 .breadcrumb-contacto {
@@ -1225,4 +1165,4 @@ body {
   margin: 6px 47px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=estyle.css.map */
