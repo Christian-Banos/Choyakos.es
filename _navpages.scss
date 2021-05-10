@@ -77,6 +77,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.seccionPortada-belleza{
+    background-image: url(https://www.practicsbs.com/wp-content/uploads/2016/09/bellezapersonalcare.png);
+    background-position-y: -600px;
+}
 
 
 // SUBMENU
@@ -94,5 +98,13 @@
     .btn-outline-dark:hover{
         background-color: #FFAD00;
         transition: all 400ms;
+    }
+}
+
+//SUBMENU DE BELLEZA Y COMPLEMENTOS
+.container__submenu--belleza{
+    .btn-outline-dark{
+        width: 190px;
+        margin: 8px;
     }
 }

@@ -231,6 +231,11 @@ footer .row-footer .footer-browsers h3 {
   background-size: cover;
 }
 
+.seccionPortada-belleza {
+  background-image: url(https://www.practicsbs.com/wp-content/uploads/2016/09/bellezapersonalcare.png);
+  background-position-y: -600px;
+}
+
 .container__submenu {
   display: flex;
   flex-direction: row;
@@ -246,6 +251,11 @@ footer .row-footer .footer-browsers h3 {
 .container__submenu .btn-outline-dark:hover {
   background-color: #FFAD00;
   transition: all 400ms;
+}
+
+.container__submenu--belleza .btn-outline-dark {
+  width: 190px;
+  margin: 8px;
 }
 
 .container__articles--card {
