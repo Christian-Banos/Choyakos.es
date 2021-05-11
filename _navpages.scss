@@ -81,6 +81,11 @@
     background-image: url(https://www.practicsbs.com/wp-content/uploads/2016/09/bellezapersonalcare.png);
     background-position-y: -600px;
 }
+.seccionPortada-mascotas{
+    background-image: url(https://www.bbva.com/wp-content/uploads/2020/11/FotoMascotasSeguro-1920x733.jpg);
+    background-position-y: 400px;
+    background-position-x: -130px;
+}
 
 
 // SUBMENU
@@ -106,5 +111,13 @@
     .btn-outline-dark{
         width: 190px;
         margin: 8px;
+    }
+}
+
+//mascotas
+.container__submenu--mascotas{
+    .btn-outline-dark{
+        width: 260px;
+        margin: 5px;
     }
 }
