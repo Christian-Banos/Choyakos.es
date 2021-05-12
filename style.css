@@ -121,7 +121,8 @@ footer .footer-psection {
 }
 footer .footer-psection .footer-psection-1 {
   justify-self: center;
-  width: 80%;
+  width: 34%;
+  margin: 0px auto;
 }
 footer .footer-psection .footer-psection-1 img {
   width: 50px;
