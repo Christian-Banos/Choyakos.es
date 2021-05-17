@@ -1166,8 +1166,9 @@ body {
   margin-top: 15px;
 }
 .destacados .destacados-box .destacados-box-img {
-  width: 40%;
-  height: 60px;
+  width: 55%;
+  height: 78px;
+  margin-bottom: -20px;
 }
 .destacados .destacados-box .destacados-box-img img {
   width: 60%;
@@ -1175,10 +1176,11 @@ body {
   margin: 7px 40px;
   border: 1px solid #d6d7da;
   border-radius: 10px;
+  padding: 5px;
 }
 .destacados .destacados-box .destacados-box-text {
   width: 60%;
-  text-align: center;
+  text-align: start;
   color: black;
   font-family: helvetica;
 }
