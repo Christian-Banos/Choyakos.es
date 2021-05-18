@@ -26,14 +26,14 @@
         .btn-secondary{
             width: 129px;
             font-size: 10pt;
-            margin: 2px;
+            margin: 1.5px;
         }
         .moda{
             text-align: left;
             width: 197px;
         }
         .salud{
-            width: 154px;
+            width: 161px;
         }
     }   
 
@@ -47,7 +47,7 @@
         }
     }
      
-//portada moda
+//portada pages
 .seccionPortada-moda{
     background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
     background-position-y: -481px;
@@ -55,6 +55,18 @@
     background-size: cover;
 }
 
+.seccionPortada-belleza{
+    background-image: url(https://www.practicsbs.com/wp-content/uploads/2016/09/bellezapersonalcare.png);
+    background-position-y: -600px;
+    background-position-x: -100px;
+}
+.seccionPortada-gaming{
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/04/16124604543886.jpg);
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 //SECTION
     .carousel{
@@ -78,13 +90,15 @@
     .col-md-4{
         img{
             width: 90% !important;
-            height: 65g% !important;
+            height: 65% !important;
         }
     }
     .telegram{
         display: none;
     }
-
+    .boton-article{
+        margin-left: 3px !important;
+    }
 //lateral
 .destacados{
     height: 495px !important;
@@ -128,14 +142,14 @@
         margin-bottom: -16px;
         .footer-psection{
             img{
-                width: 85px !important;
-                height: 67px !important;
-                padding-top: 42px;
+                width: 88px !important;
+                height: 81px !important;
+                padding-top: 52px;
                 margin-right: 0px;
             }
             .footer-psection-1{
                 h6{
-                    padding-top: 31px;
+                    padding-top: 50px;
                     font-size: 12pt;
                     width: 832px;
                     text-align: center;
@@ -147,12 +161,13 @@
             margin: 0px auto;
         }
         .footer-psection-2{
+            margin-bottom: 8px;
             p{
                 font-size: 12pt !important;
-                margin-top: 5px;
+                margin-top: -5px;
                 text-align: justify;
                 height: 96px;
-                margin-bottom: 46px;
+                margin-bottom: 51px;
             }
         }
         
