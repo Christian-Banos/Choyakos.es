@@ -84,6 +84,12 @@ body{
     a:hover{
         text-decoration: none;
     }
+
+    .precio-index{
+        color: $color1;
+        font-size: 15pt;
+        font-weight: bolder;
+    }
 }
 .card-title-articles{
     color: black;
@@ -186,7 +192,7 @@ body{
             font-family: helvetica;
 
             p{
-                margin: 15px;
+                margin: 15px 0px;
             }
         }
     }
