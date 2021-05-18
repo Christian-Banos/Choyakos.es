@@ -121,11 +121,13 @@ footer .footer-psection {
 }
 footer .footer-psection .footer-psection-1 {
   justify-self: center;
-  width: 80%;
+  width: 37%;
+  margin: 0px auto;
 }
 footer .footer-psection .footer-psection-1 img {
   width: 50px;
   height: 41px;
+  margin-top: 10px;
 }
 footer .footer-psection .footer-psection-1 h6 {
   margin-top: 20px;
@@ -153,6 +155,10 @@ footer .row-footer .footer-browsers h3 {
 
 .footer-end {
   text-align: center;
+}
+
+.footer-deportes {
+  margin-top: -35px;
 }
 
 .breadcrumb {
@@ -207,9 +213,9 @@ footer .row-footer .footer-browsers h3 {
 }
 
 .seccionPortada-electronica {
-  background-image: url(https://i.pinimg.com/originals/40/51/cf/4051cf7a63d7d42af91c3c7221f33355.jpg);
-  background-position-y: 350px;
-  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80);
+  background-position-y: 315px;
+  background-position-x: 180px;
 }
 
 .seccionPortada-gaming {
@@ -222,6 +228,24 @@ footer .row-footer .footer-browsers h3 {
 .seccionPortada-hogar {
   background-image: url(https://niutesa.com/wp-content/uploads/2020/04/Complementos-y-Accesorios-B%C3%A1sicos-para-Hogar.png);
   background-position: center;
+}
+
+.seccionPortada-moda {
+  background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
+  background-position-y: -600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seccionPortada-belleza {
+  background-image: url(https://www.practicsbs.com/wp-content/uploads/2016/09/bellezapersonalcare.png);
+  background-position-y: -600px;
+}
+
+.seccionPortada-mascotas {
+  background-image: url(https://www.bbva.com/wp-content/uploads/2020/11/FotoMascotasSeguro-1920x733.jpg);
+  background-position-y: 400px;
+  background-position-x: -130px;
 }
 
 .container__submenu {
@@ -239,6 +263,16 @@ footer .row-footer .footer-browsers h3 {
 .container__submenu .btn-outline-dark:hover {
   background-color: #FFAD00;
   transition: all 400ms;
+}
+
+.container__submenu--belleza .btn-outline-dark {
+  width: 190px;
+  margin: 8px;
+}
+
+.container__submenu--mascotas .btn-outline-dark {
+  width: 260px;
+  margin: 5px;
 }
 
 .container__articles--card {
@@ -288,6 +322,7 @@ footer .row-footer .footer-browsers h3 {
   color: white;
   font-weight: bolder;
   font-size: 11pt;
+  margin-left: 15px;
 }
 .container__articles--card .boton-article img {
   width: 35px;
@@ -310,6 +345,58 @@ footer .row-footer .footer-browsers h3 {
   background-color: goldenrod;
   color: white;
   transition: all 400ms;
+}
+
+.colores {
+  margin: 20px 28px;
+}
+.colores .boton-colores {
+  border-radius: 50%;
+  width: 20px;
+  border: none;
+}
+.colores .grisOscuro {
+  background-color: #8B8F81;
+}
+.colores .grisClaro {
+  background-color: #98A19C;
+}
+.colores .grisMarron {
+  background-color: #915731;
+}
+.colores .marron {
+  background-color: #A18A6A;
+}
+.colores .purpura {
+  background-color: red;
+}
+.colores .negro {
+  background-color: black;
+}
+
+.colores-sujetador {
+  margin: 20px 40px;
+}
+.colores-sujetador .boton-colores {
+  border-radius: 50%;
+  width: 20px;
+  border: none;
+}
+.colores-sujetador .sujetador-negro {
+  background-color: black;
+}
+.colores-sujetador .sujetador-gris {
+  background-color: grey;
+}
+.colores-sujetador .sujetador-blanco {
+  background-color: white;
+  border: 1px solid gray;
+}
+.colores-sujetador .sujetador-camuflaje {
+  background-color: gray;
+}
+.colores-sujetador .sejetador-set {
+  background-color: black;
 }
 
 .breadcrumb-contacto {
@@ -1079,8 +1166,9 @@ body {
   margin-top: 15px;
 }
 .destacados .destacados-box .destacados-box-img {
-  width: 40%;
-  height: 60px;
+  width: 55%;
+  height: 78px;
+  margin-bottom: -20px;
 }
 .destacados .destacados-box .destacados-box-img img {
   width: 60%;
@@ -1088,10 +1176,11 @@ body {
   margin: 7px 40px;
   border: 1px solid #d6d7da;
   border-radius: 10px;
+  padding: 5px;
 }
 .destacados .destacados-box .destacados-box-text {
   width: 60%;
-  text-align: center;
+  text-align: start;
   color: black;
   font-family: helvetica;
 }
