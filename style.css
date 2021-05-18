@@ -197,20 +197,25 @@ footer .row-footer .footer-browsers h3 {
   margin-left: 40px;
 }
 .seccionPortada__img img {
-  width: 80%;
-  height: 80%;
-  margin: 10px;
+  width: 90%;
+  height: 90%;
+  margin: 7px;
+}
+
+.title-elect {
+  background-color: rgba(15, 15, 15, 0.7);
+  height: 55px;
+  border-radius: 10px;
 }
 
 .seccionPortada__title {
-  width: 270px;
-  color: #E9EAED;
+  width: 290px;
+  color: #FFAD00;
   font-family: Helvetica;
   font-size: 17pt;
-}
-
-.seccionPortada__tittle--negro {
-  color: black;
+  text-align: center;
+  margin-top: 8px;
+  font-weight: bolder;
 }
 
 #seccionPortada {

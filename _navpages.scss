@@ -23,21 +23,28 @@
     margin-right: 30px;
     margin-left: 40px;
     img{
-        width: 80%;
-        height: 80%;
-        margin: 10px;
+        width: 90%;
+        height: 90%;
+        margin: 7px;
     }
 }
-.seccionPortada__title{
-    width: 270px;
-    color: #E9EAED;
-    font-family: Helvetica;
-    font-size: 17pt;
+.title-elect{
+    background-color:rgba($color: #0f0f0f, $alpha: 0.7);
+    height: 55px;
+    border-radius: 10px;
+    
 }
 
-.seccionPortada__tittle--negro{
-    color: black;
+.seccionPortada__title{
+    width: 290px;
+    color: #FFAD00;
+    font-family: Helvetica;
+    font-size: 17pt;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: bolder;
 }
+
 
 #seccionPortada{
     width: 100%;
