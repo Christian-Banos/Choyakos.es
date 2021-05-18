@@ -13,7 +13,7 @@ $grey2: #1D1F20;
     background-color: #1D1F20;
     align-items: center;
     .btn-secondary{
-        width: 187px;
+        width: 180px;
         background-color: #35373B;
         color: $color1;
         border: 6px;
@@ -26,8 +26,16 @@ $grey2: #1D1F20;
     .btn-secondary:hover{
         background-color: #53565c;
     }
+    .moda{
+        width: 227px;
+    }
 }
 
+.incos-menu{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
 // carrousel
 .carousel{
     width: 1000px;

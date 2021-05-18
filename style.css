@@ -76,7 +76,7 @@ header {
   align-items: center;
 }
 .btn-group .btn-secondary {
-  width: 187px;
+  width: 180px;
   background-color: #35373B;
   color: #FFAD00;
   border: 6px;
@@ -88,6 +88,15 @@ header {
 }
 .btn-group .btn-secondary:hover {
   background-color: #53565c;
+}
+.btn-group .moda {
+  width: 227px;
+}
+
+.incos-menu {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
 }
 
 .carousel {
@@ -160,6 +169,10 @@ footer .row-footer .footer-browsers h3 {
 
 .footer-deportes {
   margin-top: -35px;
+}
+
+.footer-nav {
+  margin-top: 31px;
 }
 
 .breadcrumb {
@@ -1191,7 +1204,7 @@ body {
   font-family: helvetica;
 }
 .destacados .destacados-box .destacados-box-text p {
-  margin: 15px 0px;
+  margin: 10px;
 }
 
 .telegram {
