@@ -251,7 +251,7 @@ footer .row-footer .footer-browsers h3 {
 
 .seccionPortada-moda {
   background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
-  background-position-y: -600px;
+  background-position-y: -627px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -458,18 +458,18 @@ footer .row-footer .footer-browsers h3 {
     width: 129px;
     font-size: 10pt;
   }
-  .btn-group .moda {
-    width: 180px;
-  }
 
   .btn-group-pages .btn-secondary {
-    width: 139px;
+    width: 129px;
     font-size: 10pt;
     margin: 2px;
   }
   .btn-group-pages .moda {
     text-align: left;
-    width: 160px;
+    width: 197px;
+  }
+  .btn-group-pages .salud {
+    width: 154px;
   }
 
   .container__submenu--paginas {
@@ -480,21 +480,42 @@ footer .row-footer .footer-browsers h3 {
     height: 35px;
   }
 
+  .seccionPortada-moda {
+    background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
+    background-position-y: -481px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .carousel {
     width: 500px;
   }
 
   .container_section {
-    width: 93% !important;
+    width: 90% !important;
     margin: 0px 66.5px !important;
   }
 
   .container__psection {
     width: 274px !important;
+    height: 700px !important;
+  }
+
+  .title-card-lateral {
+    height: 89px;
+  }
+
+  .col-md-4 img {
+    width: 90% !important;
+    height: 65% !important;
   }
 
   .telegram {
     display: none;
+  }
+
+  .destacados {
+    height: 495px !important;
   }
 
   .container__articles--pages {
@@ -510,8 +531,20 @@ footer .row-footer .footer-browsers h3 {
     width: 220px !important;
     height: 380px;
   }
+  .container__articles--pages .container__articles--card .card-text {
+    font-size: 9pt;
+  }
   .container__articles--pages .telegram-deportes {
     width: 669px;
+  }
+
+  .colores, .colores-sujetador {
+    width: 142px;
+  }
+
+  .container__articles--deportes {
+    height: 1437px !important;
+    margin-bottom: -64px;
   }
 
   footer {
@@ -519,13 +552,16 @@ footer .row-footer .footer-browsers h3 {
     margin-bottom: -16px;
   }
   footer .footer-psection img {
-    width: 95px;
-    height: 68px;
-    padding-top: 27px;
+    width: 85px !important;
+    height: 67px !important;
+    padding-top: 42px;
+    margin-right: 0px;
   }
   footer .footer-psection .footer-psection-1 h6 {
-    padding-top: 21px;
+    padding-top: 31px;
     font-size: 12pt;
+    width: 832px;
+    text-align: center;
   }
   footer .footer {
     margin-left: 0;
@@ -535,7 +571,8 @@ footer .row-footer .footer-browsers h3 {
     font-size: 12pt !important;
     margin-top: 5px;
     text-align: justify;
-    padding-bottom: 5px;
+    height: 96px;
+    margin-bottom: 46px;
   }
 
   footer .footer-pages {
@@ -1180,7 +1217,7 @@ body {
   margin-top: 15px;
   border-radius: 5px;
   padding-top: 5px;
-  height: 480px;
+  height: 489px;
 }
 .destacados h3 {
   font-size: 14pt;

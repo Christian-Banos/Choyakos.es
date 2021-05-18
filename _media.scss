@@ -11,6 +11,7 @@
             }
         }
     }
+
     
 //NAV    
     .btn-group{
@@ -18,21 +19,21 @@
             width: 129px;
             font-size: 10pt;
         }
-        .moda{
-             width: 180px;   
-        }
     }
 
 //NAV PAGES
     .btn-group-pages{
         .btn-secondary{
-            width: 139px;
+            width: 129px;
             font-size: 10pt;
             margin: 2px;
         }
         .moda{
             text-align: left;
-            width: 160px;
+            width: 197px;
+        }
+        .salud{
+            width: 154px;
         }
     }   
 
@@ -46,6 +47,14 @@
         }
     }
      
+//portada moda
+.seccionPortada-moda{
+    background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
+    background-position-y: -481px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 //SECTION
     .carousel{
@@ -54,17 +63,32 @@
 
     .container_section{
         // background-color: red;
-        width: 93% !important;
+        width: 90% !important;
         margin: 0px 66.5px !important;
     }
 
     .container__psection{
         width: 274px !important;
+        height: 700px !important;
     }
     
+    .title-card-lateral{
+        height: 89px;
+    }
+    .col-md-4{
+        img{
+            width: 90% !important;
+            height: 65g% !important;
+        }
+    }
     .telegram{
         display: none;
     }
+
+//lateral
+.destacados{
+    height: 495px !important;
+}    
 
 // ARTICULOS PAGES
     .container__articles--pages{
@@ -78,12 +102,23 @@
                 width: 220px !important;
                 height: 380px;
             }
+            .card-text{
+                font-size: 9pt;
+            }
         }
         //deportes
         .telegram-deportes{
             width: 669px;
         }
         
+        
+    }
+    .colores, .colores-sujetador{
+        width: 142px;
+    }
+    .container__articles--deportes{
+        height: 1437px !important;
+        margin-bottom: -64px;
     }
     
 
@@ -93,14 +128,17 @@
         margin-bottom: -16px;
         .footer-psection{
             img{
-                width: 95px;
-                height: 68px;
-                padding-top: 27px;
+                width: 85px !important;
+                height: 67px !important;
+                padding-top: 42px;
+                margin-right: 0px;
             }
             .footer-psection-1{
                 h6{
-                    padding-top: 21px;
+                    padding-top: 31px;
                     font-size: 12pt;
+                    width: 832px;
+                    text-align: center;
                 }
             }
         }
@@ -113,7 +151,8 @@
                 font-size: 12pt !important;
                 margin-top: 5px;
                 text-align: justify;
-                padding-bottom: 5px;
+                height: 96px;
+                margin-bottom: 46px;
             }
         }
         
@@ -127,6 +166,7 @@
             padding-top: 10px;
         }
     }
+
     //contacto
     .formulario{
         padding-bottom: 10px;
