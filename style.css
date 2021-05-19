@@ -790,14 +790,27 @@ footer .row-footer .footer-browsers h3 {
     height: 300px;
   }
   .btn-group .btn-secondary {
-    width: 410px;
+    width: 400px;
   }
   .btn-group .moda {
     width: 410x;
   }
 
-  .btn-group-pages {
+  #carouselExampleCaptions {
     display: none;
+  }
+
+  .btn-group-index {
+    display: flex;
+  }
+
+  .btn-group-pages {
+    display: flex;
+  }
+
+  .moda {
+    display: flex;
+    justify-content: center;
   }
 
   .seccionPortada__img {
@@ -810,13 +823,57 @@ footer .row-footer .footer-browsers h3 {
     margin: 15px 15px;
   }
 
-  .carousel {
-    width: 350px;
-    height: 200px;
+  .seccionPortada-gaming {
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/04/16124604543886.jpg);
+    background-position: center;
+    background-size: cover;
   }
-  .carousel img {
-    width: 350px;
-    height: 200px;
+
+  .seccionPortada-hogar {
+    background-image: url(https://niutesa.com/wp-content/uploads/2020/04/Complementos-y-Accesorios-B%C3%A1sicos-para-Hogar.png);
+    background-position: center;
+  }
+
+  .seccionPortada-moda {
+    background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
+    background-position-y: -130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .seccionPortada-belleza {
+    background-image: url(https://www.practicsbs.com/wp-content/uploads/2016/09/bellezapersonalcare.png);
+    background-position-y: center;
+    background-position-x: center;
+  }
+
+  .seccionPortada-mascotas {
+    background-image: url(https://www.bbva.com/wp-content/uploads/2020/11/FotoMascotasSeguro-1920x733.jpg);
+    background-size: cover;
+    background-position: unset;
+  }
+
+  .seccionPortada-deportes {
+    background-image: url(https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .seccionPortada-electronica {
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .title-elect {
+    width: 250px;
+    font-size: 11pt;
+  }
+  .title-elect .seccionPortada__title {
+    font-size: 12pt;
+    text-align: center;
+    margin: 17px 3px;
+    width: 100%;
   }
 
   .container__articles {
@@ -828,8 +885,8 @@ footer .row-footer .footer-browsers h3 {
     height: 150px;
   }
   .col-md-4 img {
-    width: 70% !important;
-    height: 70% !important;
+    width: 37% !important;
+    height: 66% !important;
   }
 
   .card {
@@ -855,6 +912,10 @@ footer .row-footer .footer-browsers h3 {
     width: 90%;
     margin: 0px auto !important;
   }
+  .container__articles--pages .container__articles--card .card-img-top {
+    width: 140px;
+    height: 140px;
+  }
   .container__articles--pages .container__articles--card .aticles-card {
     width: 400px !important;
     height: 320px;
@@ -877,6 +938,10 @@ footer .row-footer .footer-browsers h3 {
     width: 359px;
   }
 
+  .container__submenu--belleza {
+    display: flex;
+  }
+
   footer {
     margin-top: -1px;
     margin-bottom: -16px;
@@ -888,13 +953,13 @@ footer .row-footer .footer-browsers h3 {
     width: 424px;
   }
   footer .footer-psection img {
-    width: 80px;
-    height: 68px;
-    padding-top: 21px;
-    margin-left: -158px;
+    display: none;
+  }
+  footer .footer-psection .footer-psection-1 {
+    width: 100%;
   }
   footer .footer-psection .footer-psection-1 h6 {
-    padding-top: 20px;
+    padding-top: 0px;
     font-size: 10pt;
   }
   footer .footer {
@@ -949,6 +1014,12 @@ footer .row-footer .footer-browsers h3 {
   .header .header__logo img {
     margin: -47px 15px;
   }
+  .header .header__redes {
+    display: none;
+  }
+  .header .header__search {
+    display: none;
+  }
 
   .btn-group {
     display: flex;
@@ -957,11 +1028,28 @@ footer .row-footer .footer-browsers h3 {
     height: 300px;
   }
   .btn-group .btn-secondary {
-    width: 362px;
+    width: 350px;
+  }
+
+  .bd-highlight h1 {
+    font-size: 15pt !important;
+  }
+
+  #carouselExampleCaptions {
+    display: none;
+  }
+
+  .btn-group-index {
+    display: flex;
   }
 
   .btn-group-pages {
-    display: none;
+    display: flex;
+  }
+
+  .moda {
+    display: flex;
+    justify-content: center;
   }
 
   .seccionPortada__img {
@@ -974,50 +1062,85 @@ footer .row-footer .footer-browsers h3 {
     margin: 15px 15px;
   }
 
-  .carousel {
-    width: 300px;
-    height: 150px;
-  }
-  .carousel img {
-    width: 300px;
-    height: 150px;
+  .seccionPortada-gaming {
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/04/16124604543886.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
-  .bd-highlight {
-    width: 100% !important;
+  .seccionPortada-hogar {
+    background-image: url(https://niutesa.com/wp-content/uploads/2020/04/Complementos-y-Accesorios-B%C3%A1sicos-para-Hogar.png);
+    background-position: center;
   }
-  .bd-highlight h1 {
-    font-size: 17pt !important;
-    margin: 0px auto;
+
+  .seccionPortada-moda {
+    background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
+    background-position-y: -130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .seccionPortada-belleza {
+    background-image: url(https://www.practicsbs.com/wp-content/uploads/2016/09/bellezapersonalcare.png);
+    background-position-y: center;
+    background-position-x: center;
+  }
+
+  .seccionPortada-mascotas {
+    background-image: url(https://www.bbva.com/wp-content/uploads/2020/11/FotoMascotasSeguro-1920x733.jpg);
+    background-size: cover;
+    background-position: unset;
+  }
+
+  .seccionPortada-deportes {
+    background-image: url(https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .seccionPortada-electronica {
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .title-elect {
+    width: 250px;
+    font-size: 11pt;
+  }
+  .title-elect .seccionPortada__title {
+    font-size: 12pt;
+    text-align: center;
+    margin: 17px 3px;
+    width: 100%;
   }
 
   .container__articles {
     width: 100% !important;
     margin: 0px auto;
-    height: 2600px;
   }
 
   .col-md-4 {
     height: 150px;
   }
   .col-md-4 img {
-    width: 70% !important;
-    height: 70% !important;
+    width: 37% !important;
+    height: 66% !important;
   }
 
   .card {
-    width: 354px;
-    height: 420px;
+    width: 352px;
+    height: 463px;
     margin: 0px auto;
   }
-  .card .card-text {
-    font-size: 11pt;
+
+  .card-body {
+    margin-bottom: 7px;
+    height: 270px;
   }
-  .card .card__text--telegram {
-    font-size: 10pt;
-  }
-  .card .btn-adaptador {
-    padding-bottom: 0px;
+
+  .card-title-articles {
+    font-size: 12pt;
   }
 
   .col-md-8 .btn {
@@ -1028,8 +1151,12 @@ footer .row-footer .footer-browsers h3 {
     width: 90%;
     margin: 0px auto !important;
   }
+  .container__articles--pages .container__articles--card .card-img-top {
+    width: 140px;
+    height: 140px;
+  }
   .container__articles--pages .container__articles--card .aticles-card {
-    width: 402px !important;
+    width: 400px !important;
     height: 320px;
   }
   .container__articles--pages .container__articles--card .aticles-card .reducir-paddign {
@@ -1038,23 +1165,20 @@ footer .row-footer .footer-browsers h3 {
   .container__articles--pages .container__lateral {
     display: none;
   }
-  .container__articles--pages .tele-card {
-    height: 350px;
-  }
   .container__articles--pages .telegram-deportes {
-    width: 355px;
-    height: 350px;
+    width: 400px;
   }
   .container__articles--pages .telegram-deportes .col-md-4 img {
     width: 100px !important;
     height: 100px !important;
   }
-  .container__articles--pages .telegram-deportes .boton-article {
-    width: 300px;
-  }
 
   .container__articles--card .boton-article {
-    width: 335px;
+    width: 359px;
+  }
+
+  .container__submenu--belleza {
+    display: flex;
   }
 
   footer {
@@ -1062,20 +1186,20 @@ footer .row-footer .footer-browsers h3 {
     margin-bottom: -16px;
   }
   footer .footer-psection {
-    height: 209px;
+    height: 187px;
     display: flex;
     justify-content: flex-start;
-    width: 374px;
+    width: 424px;
   }
   footer .footer-psection img {
-    width: 83px;
-    height: 49px;
-    padding-top: 8px;
-    margin-left: -205px;
+    display: none;
+  }
+  footer .footer-psection .footer-psection-1 {
+    width: 100%;
   }
   footer .footer-psection .footer-psection-1 h6 {
-    padding-top: 6px;
-    font-size: 9pt;
+    padding-top: 0px;
+    font-size: 10pt;
   }
   footer .footer {
     margin-left: 0;
@@ -1093,50 +1217,30 @@ footer .row-footer .footer-browsers h3 {
     text-align: justify;
     padding-bottom: 15px;
     margin: 0px -115px;
-    padding-right: 190px;
+    padding-right: 142px;
   }
   footer .footer-end p {
     font-size: 10pt;
   }
 
   .footer-425px {
-    margin-top: 1360px;
+    margin-top: 2455px;
   }
   .footer-425px .footer-pages {
     height: 200px;
     padding-top: 0px;
   }
-  .footer-425px .footer-pages img {
-    width: 40px;
-    height: 40px;
-  }
-  .footer-425px .footer-pages .footer-psection-2 {
-    padding-left: 10px;
-    padding-bottom: 10px;
-  }
 
   .footer-deportes-425px {
-    margin-top: 750px;
-  }
-  .footer-deportes-425px .footer-pages {
-    height: 200px;
-    padding-top: 0px;
-  }
-  .footer-deportes-425px .footer-pages img {
-    width: 40px;
-    height: 40px;
-  }
-  .footer-deportes-425px .footer-pages .footer-psection-2 {
-    padding-left: 10px;
-    padding-bottom: 10px;
+    margin-top: 1900px;
   }
 
   .error__mesage--container img {
-    width: 300px;
+    width: 350px;
   }
 
   .Footer__Error404 {
-    font-size: 9pt;
+    font-size: 10pt;
   }
 }
 body {
