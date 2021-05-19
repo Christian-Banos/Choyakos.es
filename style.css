@@ -619,14 +619,15 @@ footer .row-footer .footer-browsers h3 {
     height: 95px;
   }
   .btn-group .btn-secondary {
-    width: 129px;
+    width: 180px;
   }
   .btn-group .moda {
-    width: 180px;
+    width: 197px;
   }
 
   .btn-group-pages {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .breadcrumb {
@@ -650,6 +651,11 @@ footer .row-footer .footer-browsers h3 {
   .bd-highlight h1 {
     font-size: 20pt !important;
     margin: 0px auto;
+  }
+
+  .col-md-4 img {
+    width: 80% !important;
+    height: 65% !important;
   }
 
   .container_section {
@@ -688,6 +694,33 @@ footer .row-footer .footer-browsers h3 {
     display: none;
   }
 
+  .telegram-deportes {
+    width: 687px !important;
+  }
+
+  .seccionPortada-moda {
+    background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
+    background-position-y: -280px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+
+  .seccionPortada-belleza {
+    background-image: url(https://www.practicsbs.com/wp-content/uploads/2016/09/bellezapersonalcare.png);
+    background-position-y: 0px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .seccionPortada-gaming {
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/04/16124604543886.jpg);
+    background-position-y: -50px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   footer {
     margin-top: -1px;
     margin-bottom: -16px;
@@ -695,10 +728,10 @@ footer .row-footer .footer-browsers h3 {
   footer .footer-psection img {
     width: 80px;
     height: 68px;
-    padding-top: 20px;
+    padding-top: 46px;
   }
   footer .footer-psection .footer-psection-1 h6 {
-    padding-top: 20px;
+    padding-top: 44px;
     font-size: 10pt;
   }
   footer .footer {
@@ -719,6 +752,10 @@ footer .row-footer .footer-browsers h3 {
   }
   footer .footer-end p {
     font-size: 10pt;
+  }
+
+  .footer-deportes {
+    margin-top: -50px;
   }
 
   .error__mesage--container img {
