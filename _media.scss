@@ -113,8 +113,8 @@
             justify-content: space-evenly;
             .aticles-card{
                 width: 220px !important;
-                height: 380px;
-            }
+                height: 381px !important;
+            } 
             .card-text{
                 font-size: 9pt;
             }
@@ -128,6 +128,7 @@
     }
     .colores, .colores-sujetador{
         width: 142px;
+            margin: 6px auto;
     }
     .container__articles--deportes{
         height: 1437px !important;
@@ -407,11 +408,11 @@ footer{
     }
 
     //menu pages
-        .btn-group-index{
-            display: flex;
-        }
+        // .btn-group-index{
+        //     display: flex;
+        // }
         .btn-group-pages{
-            display: flex;
+            display: none;
         }
         .moda{
             display: flex;
@@ -510,6 +511,9 @@ footer{
         }  
     } 
     //card-pages
+    br{
+        display: none;
+    }
     .container__articles--pages{
         width: 90%;
         margin: 0px auto !important;
@@ -520,7 +524,7 @@ footer{
             }
             .aticles-card{
                 width: 400px !important;
-                height: 320px;
+                height: 311px !important;
                 .reducir-paddign{
                     height: 20px;
                 }
@@ -530,7 +534,7 @@ footer{
             display: none;
         }
         .telegram-deportes{
-            width: 400px;
+            width: 400px !important;
             .col-md-4{
                 img{
                     width: 100px !important;
@@ -559,7 +563,10 @@ footer{
             justify-content: flex-start;
             width: 424px;
             img{
-               display: none;
+                display: block;
+                width: 45px !important;
+                height: 35px !important;
+                padding-top: 0px;
             }
             .footer-psection-1{
                     width: 100%;
@@ -596,18 +603,18 @@ footer{
         }
 
     }
-    
+
     // footer-pages
     .footer-425px{
-        margin-top: 2455px;
+        margin-top: 2344px;
         .footer-pages{
-            height: 200px;
+            height: 172px;
             padding-top: 0px;
         }
     }
     
     .footer-deportes-425px{
-        margin-top: 1900px;
+        margin-top: 1946px;
     }
 
     //pagina-error{
@@ -661,11 +668,11 @@ footer{
     }
 
     //menu pages
-        .btn-group-index{
-            display: flex;
-        }
+        // .btn-group-index{
+        //     display: flex;
+        // }
         .btn-group-pages{
-            display: flex;
+            display: none;
         }
         .moda{
             display: flex;
@@ -724,7 +731,7 @@ footer{
     }
 
     .title-elect{
-        width: 250px;
+        width: 220px !important;
         font-size: 11pt;
         .seccionPortada__title{
             font-size: 12pt;
@@ -751,6 +758,12 @@ footer{
         height: 463px;
         margin: 0px auto;
     }
+
+    .tele-card{
+        width: 374px;
+        height: 343px;
+    }
+
     .card-body{
         margin-bottom: 7px;
         height: 270px;
@@ -763,18 +776,20 @@ footer{
           width: 100%;  
         }  
     } 
+
+
     //card-pages
     .container__articles--pages{
         width: 90%;
         margin: 0px auto !important;
         .container__articles--card{
             .card-img-top{
-                width: 140px;
-                height: 140px;
+                width: 100px;
+                height: 100px;
             }
             .aticles-card{
                 width: 400px !important;
-                height: 320px;
+                height: 271px !important;
                 .reducir-paddign{
                     height: 20px;
                 }
@@ -784,7 +799,8 @@ footer{
             display: none;
         }
         .telegram-deportes{
-            width: 400px;
+            width: 400px !important;
+            height: 300px !important;
             .col-md-4{
                 img{
                     width: 100px !important;
@@ -797,7 +813,7 @@ footer{
 
     .container__articles--card {
         .boton-article{
-            width: 359px;
+            width: 328px;
         }
     }
     .container__submenu--belleza{
@@ -811,15 +827,21 @@ footer{
             height: 187px;
             display: flex;
             justify-content: flex-start;
-            width: 424px;
-            img{
-               display: none;
-            }
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 22px;
+            
             .footer-psection-1{
                     width: 100%;
                 h6{
                     padding-top: 0px;
                     font-size: 10pt;
+                }
+                img{
+                    display: block;
+                    width: 45px !important;
+                    height: 35px !important;
+                    padding-top: 0px;
                 }
             }
         }
@@ -853,7 +875,7 @@ footer{
     
     // footer-pages
     .footer-425px{
-        margin-top: 2455px;
+        margin-top: 1867px;
         .footer-pages{
             height: 200px;
             padding-top: 0px;
@@ -861,7 +883,7 @@ footer{
     }
     
     .footer-deportes-425px{
-        margin-top: 1900px;
+        margin-top: 1513px;
     }
 
     //pagina-error{
