@@ -1008,6 +1008,252 @@ footer .row-footer .footer-browsers h3 {
     font-size: 10pt;
   }
 }
+@media screen and (max-width: 400px) {
+  .header {
+    height: 90px;
+  }
+  .header .header__logo {
+    margin: 0px auto;
+  }
+  .header .header__logo img {
+    margin: -47px 15px;
+  }
+  .header .header__redes {
+    display: none;
+  }
+  .header .header__search {
+    display: none;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 300px;
+  }
+  .btn-group .btn-secondary {
+    width: 350px;
+  }
+
+  .bd-highlight h1 {
+    font-size: 15pt !important;
+  }
+
+  #carouselExampleCaptions {
+    display: none;
+  }
+
+  .btn-group-pages {
+    display: none;
+  }
+
+  .moda {
+    display: flex;
+    justify-content: center;
+  }
+
+  .seccionPortada__img {
+    width: 78px;
+    height: 80px;
+  }
+  .seccionPortada__img img {
+    width: 50px;
+    height: 50px;
+    margin: 15px 15px;
+  }
+
+  .seccionPortada-gaming {
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/04/16124604543886.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .seccionPortada-hogar {
+    background-image: url(https://niutesa.com/wp-content/uploads/2020/04/Complementos-y-Accesorios-B%C3%A1sicos-para-Hogar.png);
+    background-position: center;
+  }
+
+  .seccionPortada-moda {
+    background-image: url(https://ecoembesdudasreciclaje.es/wp-content/uploads/2021/01/donde-tirar-bolsos-viejos.jpg);
+    background-position-y: -130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .seccionPortada-belleza {
+    background-image: url(https://www.practicsbs.com/wp-content/uploads/2016/09/bellezapersonalcare.png);
+    background-position-y: center;
+    background-position-x: center;
+  }
+
+  .seccionPortada-mascotas {
+    background-image: url(https://www.bbva.com/wp-content/uploads/2020/11/FotoMascotasSeguro-1920x733.jpg);
+    background-size: cover;
+    background-position: unset;
+  }
+
+  .seccionPortada-deportes {
+    background-image: url(https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .seccionPortada-electronica {
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .title-elect {
+    width: 220px !important;
+    font-size: 11pt;
+  }
+  .title-elect .seccionPortada__title {
+    font-size: 12pt;
+    text-align: center;
+    margin: 17px 3px;
+    width: 100%;
+  }
+
+  .container__articles {
+    width: 100% !important;
+    margin: 0px auto;
+  }
+
+  .col-md-4 {
+    height: 150px;
+  }
+  .col-md-4 img {
+    width: 37% !important;
+    height: 66% !important;
+  }
+
+  .card {
+    width: 352px;
+    height: 463px;
+    margin: 0px auto;
+  }
+
+  .tele-card {
+    width: 374px;
+    height: 343px;
+  }
+
+  .card-body {
+    margin-bottom: 7px;
+    height: 270px;
+  }
+
+  .card-title-articles {
+    font-size: 12pt;
+  }
+
+  .col-md-8 .btn {
+    width: 100%;
+  }
+
+  .container__articles--pages {
+    width: 90%;
+    margin: 0px auto !important;
+  }
+  .container__articles--pages .container__articles--card .card-img-top {
+    width: 100px;
+    height: 100px;
+  }
+  .container__articles--pages .container__articles--card .aticles-card {
+    width: 400px !important;
+    height: 271px !important;
+  }
+  .container__articles--pages .container__articles--card .aticles-card .reducir-paddign {
+    height: 20px;
+  }
+  .container__articles--pages .container__lateral {
+    display: none;
+  }
+  .container__articles--pages .telegram-deportes {
+    width: 400px !important;
+    height: 300px !important;
+  }
+  .container__articles--pages .telegram-deportes .col-md-4 img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .container__articles--card .boton-article {
+    width: 328px;
+  }
+
+  .container__submenu--belleza {
+    display: flex;
+  }
+
+  footer {
+    margin-top: -1px;
+    margin-bottom: -16px;
+  }
+  footer .footer-psection {
+    height: 187px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 22px;
+  }
+  footer .footer-psection .footer-psection-1 {
+    width: 100%;
+  }
+  footer .footer-psection .footer-psection-1 h6 {
+    padding-top: 0px;
+    font-size: 10pt;
+  }
+  footer .footer-psection .footer-psection-1 img {
+    display: block;
+    width: 45px !important;
+    height: 35px !important;
+    padding-top: 0px;
+  }
+  footer .footer {
+    margin-left: 0;
+    margin: 0px auto;
+  }
+  footer .footer h3 {
+    font-size: 12pt !important;
+  }
+  footer .footer img {
+    width: 30px;
+  }
+  footer .footer-psection-2 p {
+    font-size: 10pt !important;
+    margin-top: 5px;
+    text-align: justify;
+    padding-bottom: 15px;
+    margin: 0px -115px;
+    padding-right: 142px;
+  }
+  footer .footer-end p {
+    font-size: 10pt;
+  }
+
+  .footer-425px {
+    margin-top: 1867px;
+  }
+  .footer-425px .footer-pages {
+    height: 200px;
+    padding-top: 0px;
+  }
+
+  .footer-deportes-425px {
+    margin-top: 1513px;
+  }
+
+  .error__mesage--container img {
+    width: 350px;
+  }
+
+  .Footer__Error404 {
+    font-size: 10pt;
+  }
+}
 @media screen and (max-width: 376px) {
   .header {
     height: 90px;
